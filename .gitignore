@@ -1,0 +1,15 @@
+sftp-config.json
+logs
+.idea
+.project
+pdf
+.sublime-project
+.sublime-workspace
+
+# everything related to environment config should be ignore
+# excepted for development config
+config/environments/*
+!config/environments/sample.js
+
+# comment node modules if deploy from git to production
+node_modules
